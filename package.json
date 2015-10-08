@@ -1,0 +1,20 @@
+{
+  "name": "vgr-build-base",
+  "version": "0.0.1",
+  "description": "",
+  "author": "",
+  "license": "CC-BY-SA-4.0",
+  "peerDependencies": {
+    "gulp": "^3.9.0"
+  },
+  "dependencies": {
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.6.0",
+    "require-dir": "^0.3.0",
+    "resolve": "^1.1.6",
+    "resolve-module": "^0.2.0",
+    "run-sequence": "^1.1.4"
+  }
+}
