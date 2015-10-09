@@ -78,3 +78,16 @@ module.exports.destDir = function(type, base) {
 module.exports.destFor = function(type, base) {
 	return gulp.dest(this.destDir(type, base));
 };
+
+/**
+ * Get the glob to use for watching files for the given type of file.
+ */
+module.exports.watchGlob = function(type, base) {
+	var root = (base || config.shared.src);
+	var t = config[type];
+	if(! t) throw 'Unknown type ' + type + ', no configuration found for the given type';
+
+	if(! t.src) throw 'Type ' + type + ' does not have a defined source';
+
+	return map(path.join(root, t.dir), t.watch || t.src);
+};

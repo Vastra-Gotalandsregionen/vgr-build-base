@@ -10,6 +10,10 @@ module.exports = {
         ]
     },
 
+	watch: {
+		targets: [ 'css', 'js', 'static' ]
+	},
+
     build: {
         // Tasks that perform sanity checks
         sanityChecks: [],
@@ -26,7 +30,9 @@ module.exports = {
         // The subfolder that all CSS-files are in
         dir: 'css',
 
-        src: [ 'main.scss' ]
+        src: [ 'main.scss' ],
+
+		watch: '**/*.scss'
     },
 
     // JavaScript configuration
@@ -36,6 +42,8 @@ module.exports = {
 
         // The main JS-files linkable from HTML
         src: [ 'main.js' ],
+
+		watch: '**/*.js',
 
         jshint: {
             devel: true,

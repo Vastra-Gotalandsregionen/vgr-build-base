@@ -12,6 +12,7 @@
     "gulp-plumber": "^1.0.1",
     "gulp-sass": "^2.0.4",
     "gulp-sourcemaps": "^1.6.0",
+    "gulp-watch": "^4.3.5",
     "require-dir": "^0.3.0",
     "resolve": "^1.1.6",
     "resolve-module": "^0.2.0",
