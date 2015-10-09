@@ -12,4 +12,6 @@ module.exports.component = function(name) {
     this.config.css.src = [ name + '.scss' ];
     this.config.css.dest = '';
 	this.config.static.src.push(this.config.css.dir + '/**/*.scss');
+	this.config.static.src.push('**/*.html');
+	this.config.shared.browsersync = 'example.html';
 };
