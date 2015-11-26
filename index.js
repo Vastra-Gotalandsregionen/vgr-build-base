@@ -14,4 +14,9 @@ module.exports.component = function(name) {
 	this.config.static.src.push(this.config.css.dir + '/**/*.scss');
 	this.config.static.src.push('**/*.html');
 	this.config.shared.browsersync = 'example.html';
+
+	return this;
 };
+
+// TODO: Copy support for static assets
+// TODO: Actually do something with the JavaScript files

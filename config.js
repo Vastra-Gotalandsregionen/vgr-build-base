@@ -19,10 +19,10 @@ module.exports = {
         sanityChecks: [],
 
         // Tasks for static resorces such as icons and images
-        static: [],
+        static: [ 'static', 'copy' ],
 
         // Tasks for resources that are compiled, such as JS and CSS
-        compiled: [ 'css', 'js', 'static' ]
+        compiled: [ 'css', 'js' ]
     },
 
     // CSS configuration
