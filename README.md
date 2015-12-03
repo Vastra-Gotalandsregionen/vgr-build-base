@@ -9,7 +9,7 @@ This repository contains extensions for Gulp that setup shared tasks to make it 
 * [Documentation](#documentation)
 * [Contributing](#contributing)
 * [Versioning](#versioning)
-* [Changelog](#versioning)
+* [Changelog](#changelog)
 * [License](#license)
 
 ## Getting started
@@ -46,7 +46,7 @@ VGR Build Base is maintained under [the Semantic Versioning guidelines](http://s
 
 ## Changelog
 
-To see what has changed in recent versions of VGR Build Base, see the [CHANGELOG](https://github.com/Vastra-Gotalandsregionen/vgr-base/blob/master/CHANGELOG.md).
+To see what has changed in recent versions of VGR Build Base, see the [CHANGELOG](https://github.com/Vastra-Gotalandsregionen/vgr-build-base/blob/master/CHANGELOG.md).
 
 ## License
 
